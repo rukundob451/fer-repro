@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# JAX/outputs / training artifacts
+data/sgd_*/           # big run folders (keep metrics+figs you need)
+logs/
+*.pkl
+*.log
+
+# OS/IDE clutter
+.DS_Store
+.idea/
+.vscode/
+
+# Keep important outputs (explicitly un-ignore)
+!data/metrics_symmetry.csv
+!data/results_table.tex
+!data/loss_vs_symmetry.png
+!data/img_compare_all.png
+!data/loss_compare_all.png
+# Ignore large training artifacts
+data/sgd_skull_lambda*/
+logs/
+*.pkl
+*.log
+
+# Keep important outputs
+!data/metrics_symmetry.csv
+!data/results_table.tex
+!data/loss_vs_symmetry.png
+!data/img_compare_all.png
+!data/loss_compare_all.png
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,11 @@
+jax==0.7.1
+jaxlib==0.7.1           # CPU build
+flax==0.11.1
+optax==0.2.4
+evosax==0.1.5
+matplotlib==3.10.0
+numpy==2.3.2
+tqdm==4.67.1
+Pillow>=10.0.0
+
+einops==0.8.0
